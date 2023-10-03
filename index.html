@@ -100,62 +100,164 @@
     <h3>ORADORES</h3>
     <h2>Esta es la primera prueba</h2>
 
-    <div class="d-flex row flex-colum justify-content-center">
+    <!-- inicio cards oradores -->
+    <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/steve1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6>JavaScript  React</h6>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/bill1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/mujer1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+    <!-- final cards oradores -->
+
+
+
+    <!-- inicio tarjeta de playa -->
+    <h2>Tarjeta de la playa</h2>
+    <div class="d-flex flex-colum justify-content-center">
+      <!-- <div class="row row-cols-1 row-cols-md-5 g-4 "> -->
                 
       <!-- <div class="card card-conf d-flex flex-colum justify-content-between"> -->
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 41rem;">
 
-          <img src="img/steve1.jpg" class="card-img-top" alt="...">
+          <img src="img/playa.jpg" class="card-img-top" alt="...">
           
-          <div class="card-body">
-          
-          <h5 class="card-title">Card title</h5>
-          
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          
-          <!-- </div> -->
-          
-       </div>
+        
      </div>
      <!-- <div class="card card-conf d-flex flex-colum justify-content-between"> -->
-      <div class="card" style="width: 18rem;">
-
-        <img src="img/bill1.jpg" class="card-img-top" alt="...">
+      <div class="card bg-secondary text-white" style="width: 41rem;">
+        <!-- <div class="mb-2 bg-secondary text-white"> -->
+        <!-- <img src="img/bill1.jpg" class="card-img-top" alt="..."> -->
         
         <div class="card-body">
         
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Bs As - Octubre</h5>
         
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad- condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
         
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Conocé más</a>
         
         <!-- </div> -->
-        
+       </div> 
      </div>
    </div>
-     <!-- <div class="card card-conf d-flex flex-colum justify-content-between"> -->
-      <div class="card" style="width: 18rem;">
-
-        <img src="img/mujer1.jpg" class="card-img-top" alt="...">
-        
-        <div class="card-body">
-        
-        <h5 class="card-title">Card title</h5>
-        
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-        
-        <!-- </div> -->
-        
-     </div>
+ 
      </div>
     
       </div>
     <!-- Final cards -->
+    <h6>CONVIÉTETE EN UN</h6>
+    <h2>ORADOR</h2>
+    <h6>Anótate como orador para dar una charla ignite. Cuéntamos de qué quieres hablar!</h6>
+
+  <!-- inicio del formato -->
+  <form class="row g-1 justify-content-center">
+    <div class="col-md-4">
+      <label for="inputNombre4" class="form-label">Nombre</label>
+      <input type="nombre" class="form-control" id="inputNombre4">
+    </div>
+    <div class="col-md-4">
+      <label for="inputApellido4" class="form-label">Apellido</label>
+      <input type="apellido" class="form-control" id="inputApellido4">
+    </div>
+    <div class="mb-4">
+      <label for="exampleFormControlTextarea1" class="form-label"></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Sobre qué quieres hablar?</textarea>
+      <label>Recuerda incluir un título para tu charla</label>
+    </div>
+   
+    <div class="enviar">
+      <!-- <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+      <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label> -->
+      <div class="d-grid ">
+        <button class="btn btn-primary2" type="button">Enviar</button>
+      </div>
+       
+    </div>
+    <!-- <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+    <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label> -->
+
+  </form>
+  <!-- final del formato -->
+
+
+<br>
+<!-- Footer -->
+<footer>
+  <!-- FOOTER START -->
+  <div class="footer">
+    <div class="contain">
+    <div class="col">
+      <!-- <h1>Company</h1> -->
+      <ul>
+        <li>Preguntas</li>
+        <li>frecuentes</li>
+      </ul>
+    </div>
+    <div class="col">
+      <!-- <h1>Products</h1> -->
+      <ul>
+        <li>Contáctanos</li>
+      </ul>
+    </div>
+    <div class="col">
+      <!-- <h1>Accounts</h1> -->
+      <ul>
+        <li>Prensa</li>
+      </ul>
+    </div>
+    <div class="col">
+      <!-- <h1>Resources</h1> -->
+      <ul>
+        <li>Conferencias</li>
+      </ul>
+    </div>
+    <div class="col">
+      <!-- <h1>Support</h1> -->
+      <ul>
+        <li>Términos y</li>
+        <li>condiciones</li>
+        <!-- <li>Open ticket</li> -->
+      </ul>
+    </div>
+    <div class="col">
+      <!-- <h1>Social</h1> -->
+      <ul>
+        <li>Privacidad</li>
+      </ul>
+    </div>
+  <div class="clearfix"></div>
+  </div>
+  </div>
+  <!-- END OF FOOTER -->
+</footer>
+<!-- Footer -->
+
 
 
 
@@ -180,5 +282,9 @@
 
 
 </body>
+
+ 
+  
+
 
 </html>
