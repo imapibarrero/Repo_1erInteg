@@ -26,6 +26,34 @@ footer {
 
 .footer-addres-icon {
   padding-right: 10px; } */
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color:rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity)) !important;
+}
+  .nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weigh: ;
+    --bs-nav-link-color: var(--bs-white);
+    --bs-nav-link-hover-color: var(--bs-secondary-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    font-size:x-large;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .parrafo{
+    text-align: right;
+    margin-left: 0px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+  }
+
+  .centrado {
+    text-align: center;
+  }
 
 .mb-4 {
   width: 67% }
