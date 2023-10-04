@@ -44,6 +44,20 @@ footer {
     margin-bottom: 0;
     list-style: none;
   }
+  .navega {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weigh: ;
+    --bs-nav-link-color: var(--bs-white);
+    --bs-nav-link-hover-color: var(--bs-secondary-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    font-size:x-large;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
   .parrafo{
     text-align: right;
     margin-left: 0px;
