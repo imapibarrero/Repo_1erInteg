@@ -44,26 +44,57 @@ footer {
     margin-bottom: 0;
     list-style: none;
   }
-  .navega {
-    --bs-nav-link-padding-x: 1rem;
-    --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weigh: ;
-    --bs-nav-link-color: var(--bs-white);
-    --bs-nav-link-hover-color: var(--bs-secondary-color);
-    --bs-nav-link-disabled-color: var(--bs-secondary-color);
-    font-size:x-large;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-  }
+
   .parrafo{
     text-align: right;
     margin-left: 0px;
     margin-left: 150px;
     margin-bottom: 200px;
   }
+  
+element.style {
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1.65rem;
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+}
+.btn-outline-primary {
+  --bs-btn-color: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(89, 241, 18);
+  --bs-btn-hover-border-color: rgb(89, 241, 18);
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0d6efd;
+  --bs-btn-active-border-color: #0d6efd;
+  --bs-btn-active-shadow: inset 0 5px 8px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #0d6efd;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-gradient: none;
+}
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #14ca75;
+  --bs-btn-border-color: #14ca75;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #14ca75;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-focus-shadow-rgb: 60,153,110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #146c43;
+  --bs-btn-active-border-color: #13653f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #198754;
+  --bs-btn-disabled-border-color: #198754;
+}
 
   .centrado {
     text-align: center;
@@ -78,8 +109,8 @@ footer {
 
 .btn-primary2 {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #62d61f;
-  --bs-btn-border-color: #62d61f;
+  --bs-btn-bg: #14ca75;
+  --bs-btn-border-color: #14ca75;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0b5ed7;
   --bs-btn-hover-border-color: #0a58ca;
