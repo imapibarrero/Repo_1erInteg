@@ -99,26 +99,15 @@ element.style {
   .centrado {
     text-align: center;
   }
-
-  .custom-popover {
-    --bs-popover-max-width: 1.65rem;
-    --bs-popover-border-color: var(--bd-violet-bg);
-    --bs-popover-header-bg: var(--bd-violet-bg);
-    --bs-popover-header-color: var(--bs-white);
-    --bs-popover-body-padding-x: 0.5rem;
-    --bs-popover-body-padding-y: 1rem;
- 
-  }
   
-
-  /* .card-body {
+  .btn {
     --bs-btn-padding-x: 0.5rem;
     --bs-btn-padding-y: 0.175rem;
-    --bs-btn-font-family: ;
+    /* --bs-btn-font-family: ;
     --bs-btn-font-size: 0.95rem ! important;
     --bs-btn-font-weight: 600;
-    --bs-btn-line-height: 1.5;
-  } */
+    --bs-btn-line-height: 1.5; */
+  }
 
 .mb-4 {
   width: 67% }
@@ -189,10 +178,6 @@ element.style {
   -webkit-transition: .2s;
   -moz-transition: .2s;
 }
-/* .social ul li {
-  display: inline-block;
-  padding-right: 5px !important;
-} */
 
 .footer .col ul li:hover {
   color: #ffffff;
