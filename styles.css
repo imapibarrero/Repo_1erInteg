@@ -98,7 +98,22 @@ element.style {
   }
 
 .mb-4 {
-  width: 67% }
+  width: 67%
+ }
+
+ .alert-primary {
+  --bs-alert-color: var(--bs-primary-text-emphasis);
+  --bs-alert-bg: var(--bs-primary-bg-subtle);
+  --bs-alert-border-color: var(--bs-primary-border-subtle);
+  --bs-alert-link-color: var(--bs-primary-text-emphasis);
+}
+.alert {
+
+  --bs-alert-padding-x: 13px;
+  --bs-alert-padding-y: 0.8rem;
+  margin-top: 30px;
+  position: relative;
+}
 .enviar {
   width: 67%;
   /* color:rgb(168, 23, 23) */
@@ -119,6 +134,7 @@ element.style {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #62d61f;
   --bs-btn-disabled-border-color: #62d61f;
+  --bs-btn-padding-y: 0.5rem;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {

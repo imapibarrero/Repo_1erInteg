@@ -187,6 +187,10 @@
 
     <!-- inicio del formato 2do integrador -->
 
+    <br>
+    <h6 id=oradores class="centrado">VENTA</h6>
+    <h3 class="centrado">VALOR DE TICKET $200</h3>
+
      <!-- inicio cards precios -->
      <div class="row row-cols-1 row-cols-md-6 g-1 justify-content-center ard text-center mb-3 ">
       <div class="col">
@@ -233,24 +237,71 @@
   <!-- inicio del formato -->
   <form class="row g-1 justify-content-center">
     <div class="col-md-4">
-      <label for="inputNombre4" class="form-label">Nombre</label>
-      <input type="nombre" class="form-control" id="inputNombre4">
+      <!-- <label for="inputNombre4" class="form-label">Nombre</label> -->
+      <!-- <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">Nombre</textarea> -->
+      <label for="validationTextarea" class="form-label"></label>
+      <textarea class="form-control" id="validationTextarea" rows="1" placeholder="Nombre" required></textarea>
+    <!-- <div class="invalid-feedback"> -->
+
+      <!-- <input type="nombre" class="form-control" id="inputNombre4"> -->
     </div>
     <div class="col-md-4">
-      <label for="inputApellido4" class="form-label">Apellido</label>
-      <input type="apellido" class="form-control" id="inputApellido4">
+      <label for="validationTextarea" class="form-label"></label>
+      <textarea class="form-control" id="validationTextarea" rows="1" placeholder="Apellido" required></textarea>
     </div>
+    <!-- <div class="col-md-4">
+      <label for="validationTextarea" class="form-label"></label>
+      <textarea class="form-control" id="validationTextarea" rows="1" placeholder="Correo" required></textarea>
+    </div> -->
     <div class="mb-4">
       <label for="exampleFormControlTextarea1" class="form-label"></label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Sobre qué quieres hablar?</textarea>
-      <label>Recuerda incluir un título para tu charla</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Correo" required></textarea>
+      <!-- <label>Recuerda incluir un título para tu charla</label> -->
+    </div>
+    <div class="col-md-4">
+      <label for="inputNombre4" class="form-label">Cantidad</label>
+      <!-- <textarea class="form-control" id="exampleFormControlTextarea1" rows="1">Cantidad</textarea> -->
+      <label for="validationTextarea" class="form-label"></label>
+      <textarea class="form-control" id="validationTextarea" rows="1" placeholder="Cantidad" required></textarea>
+    <!-- <div class="invalid-feedback"> -->
+
+      <!-- <input type="nombre" class="form-control" id="inputNombre4"> -->
+    </div>
+    <div class="col-md-4">
+      <label for="inputNombre4" class="form-label">Categoría</label>
+      <label for="validationTextarea" class="form-label"></label>
+      <select class="form-select" required aria-label="select example">
+        <option value="">Estudiante</option>
+        <option value="1">Trainee</option>
+        <option value="2">Junior</option>
+      </select>
+      <!-- <textarea class="form-control" id="validationTextarea" rows="1" placeholder="Apellido" required></textarea> -->
+    </div>
+    <div class="mb-4">
+
+      <div class="alert alert-primary" role="alert">
+        Total a pagar
+      </div>
+      
+      
+      <!-- <label for="exampleFormControlTextarea1" class="form-label"></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Total a pagar" required></textarea> -->
+      <!-- <label>Recuerda incluir un título para tu charla</label> -->
     </div>
    
-    <div class="enviar">
+    <div class="col-md-4">
       <!-- <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
       <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label> -->
       <div class="d-grid ">
-        <button class="btn btn-primary2" type="button">Enviar</button>
+        <button class="btn btn-primary2" type="button">Borrar</button>
+      </div>
+       
+    </div>
+    <div class="col-md-4">
+      <!-- <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+      <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label> -->
+      <div class="d-grid ">
+        <button class="btn btn-primary2" type="button">Resumen</button>
       </div>
        
     </div>
